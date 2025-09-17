@@ -13,6 +13,11 @@ return new class extends Migration
     {
         Schema::create('campaigns', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('user_id')->constrained()->cascadeOnDelete();
+            $table->string('name');
+            $table->string('description');
+            $table->string('status');
+            $table->dateTime('last_updated'); // should be updated when any content is updated
             $table->timestamps();
         });
     }
