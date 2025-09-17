@@ -1,4 +1,4 @@
-<x-layout-nobox>
+<x-form-layout>
     <h2 class="text-2xl/9 font-bold tracking-tight text-white">Hello, friend.</h2>
     <h3 class="text-lg text-[#A1A09A]">Glad to see you again.</h3>
     <hr class="my-3 text-lime-800">
@@ -40,4 +40,4 @@
         <a href="/register" class="mt-10 text-[13px] underline tracking-tight text-[#A1A09A]">You don't know me yet.</a><br>
         <a href="/" class="inline-block mt-5 text-[13px] underline tracking-tight text-[#605f5c]">Take me back.</a>
     </form>
-</x-layout-nobox>
+</x-form-layout>

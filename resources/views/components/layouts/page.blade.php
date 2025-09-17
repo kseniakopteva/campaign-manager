@@ -1,4 +1,4 @@
-<x-layout-main>
+<x-main-layout>
     <div class="flex justify-center w-full transition-opacity opacity-100 duration-750 lg:grow starting:opacity-0">
         <main class="flex max-w-[335px] w-full flex-col-reverse lg:max-w-7xl lg:flex-row">
             <div
@@ -7,4 +7,4 @@
             </div>
         </main>
     </div>
-</x-layout-main>
+</x-main-layout>
